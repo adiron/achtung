@@ -124,7 +124,7 @@ function roundDistPairHoriz(second, first) {
 function roundDistPairVert(second, first) {
     var offset;
 
-    var dist = second.frame.y - (first.frame.y + first.frame.width);
+    var dist = second.frame.y - (first.frame.y + first.frame.height);
     log(`Original distance: ${dist}`);
 
     // Are the rects intersecting?
