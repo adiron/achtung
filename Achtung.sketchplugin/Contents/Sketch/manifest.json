@@ -1,0 +1,36 @@
+{
+    "name": "𝟖 Achtung!",
+    "identifier": "me.adiron.achtung",
+    "version": "0.1",
+    "description": "Round layers to multiples of 8",
+    "authorEmail": "adi@adiron.me",
+    "author": "Adi Ron",
+    "commands": [
+        {
+            "script": "achtung.js",
+            "handler": "roundWidth",
+            "name": "Round width",
+            "identifier": "roundWidth"
+        },
+        {
+            "script": "achtung.js",
+            "handler": "roundHeight",
+            "name": "Round height",
+            "identifier": "roundHeight"
+        },
+        {
+            "script": "achtung.js",
+            "handler": "roundVertical",
+            "shortcut": "cmd shift ,",
+            "name": "Round vertical distances",
+            "identifier": "roundVertical"
+        },
+        {
+            "script": "achtung.js",
+            "handler": "roundHorizontal",
+            "shortcut": "cmd shift .",
+            "name": "Round horizontal distance",
+            "identifier": "roundHorizontal"
+        }
+    ]
+}
